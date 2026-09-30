@@ -1,0 +1,13 @@
+# 构建产物
+out/
+*.o
+*.ko
+Module.symvers
+
+# 原厂镜像 / 打包结果（体积大，且请勿随项目分发）
+*.img
+
+# 临时目录
+.venv/
+__pycache__/
+*.pyc
